@@ -27,3 +27,7 @@ if (role == "admin"):
     print ("Hello Admin")
 else: 
     print ("Hello User")
+
+def greet(msg):
+ print(f"Greetings: {msg}")
+greet("Hello World!")
